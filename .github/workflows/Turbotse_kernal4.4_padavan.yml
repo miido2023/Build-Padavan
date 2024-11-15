@@ -47,7 +47,7 @@ on:
         required: true
         default: '20240209'
 env:
-  REPOSITORY_URL: https://github.com/TurBoTse/padavan.git
+  REPOSITORY_URL: https://github.com/miido2023/TurBoTse-padavan.git
   WORK_PATH: /opt/padavan-4.4
   TIME_ZONE: Asia/Shanghai
   FIRMWARE_DATEPREFIX: $(date +"%Y%m%d")
