@@ -7,43 +7,11 @@ on:
         type: choice
         description: 'target to compile'
         options:
-        - MI-NANO
-        - MI-MINI
-        - MI-3
-        - MI-3A
-        - MI-3C
-        - MI-3MI
-        - MI-R3G
-        - MI-R3P
-        - MI-R3P-breed
-        - MI-3MI
-        - MI-3MI
-        - MI-4
-        - MI-R4A
-        - MI-4A-100M
-        - MI-4C
-        - RM2100
-        - R2100
         - K2P-USB
-        - CR660x
-        - JCG-Q20
-        - JCG-AC860M
-        - JCG-AC876M
-        - JCG-Y2
-        - DIR-878
-        - DIR-882
-        - MR2600
-        - NEWIFI
-        - XY-C1
-        - WR1200JS
-        - MSG1500
-        - BELL-A040WQ
-        - ZTE-E8820S
-        - B70
       plugins:
         description: 'json format string of include configs'
         required: true
-        default: '{"aria":"n","transmission":"n","vpnsvr":"n","vpncli":"n","vpncmd":"n","openvpn":"n","ss":"n","v2ray":"n","xray":"n","trojan":"n","ssobfs":"n","dnsforwarder":"n","adbyby":"n","adguardhome":"n","smartdns":"n","aliddns":"n","zerotier":"n","frpc":"n","frps":"n","ddnsto":"n","wireguard":"n","aldriver":"n","sqm":"n","mentohust":"y","scutclient":"n","njitclient":"n","minieap":"y","dogcom":"n"}'
+        default: '{"aria":"n","transmission":"n","vpnsvr":"n","vpncli":"n","vpncmd":"n","openvpn":"n","ss":"n","v2ray":"n","xray":"n","trojan":"n","ssobfs":"n","dnsforwarder":"n","adbyby":"n","adguardhome":"n","smartdns":"n","aliddns":"n","zerotier":"y","frpc":"n","frps":"n","ddnsto":"n","wireguard":"n","aldriver":"n","sqm":"n","mentohust":"n","scutclient":"n","njitclient":"n","minieap":"n","dogcom":"n"}'
 
       firmwarever:
         description: 'firmware''s version'
