@@ -1,4 +1,4 @@
-name: Build tsl0922's kernal4.4 Padavan
+name: Build Turbotse's kernal4.4 Padavan
 
 on:
   workflow_dispatch:
@@ -47,7 +47,7 @@ on:
         required: true
         default: '20240209'
 env:
-  REPOSITORY_URL: https://github.com/tsl0922/padavan.git
+  REPOSITORY_URL: https://github.com/TurBoTse/padavan.git
   WORK_PATH: /opt/padavan-4.4
   TIME_ZONE: Asia/Shanghai
   FIRMWARE_DATEPREFIX: $(date +"%Y%m%d")
