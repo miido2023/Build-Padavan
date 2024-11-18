@@ -129,5 +129,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: always()
       with:
-        name: Padavan-user-R3G-minidlna1.3.3-filebrowser-transmission-smartdns-aliddns-zerotier-SSR-v2ray-trojan-xray-aldriver-ddnsto_2024_09_12
+        name: K2P-Padavan-3.4-user
         path: /opt/images
