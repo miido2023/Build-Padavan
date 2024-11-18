@@ -10,7 +10,7 @@ on:
         required: false
       release:
         description: "是否需要发布到Release? (不发布也可以到Artifacts下载)"
-        default: 'yes'
+        default: 'no'
         required: false
 env:
   MHZ: 600               # CPU超频频率 必须为20的倍数
